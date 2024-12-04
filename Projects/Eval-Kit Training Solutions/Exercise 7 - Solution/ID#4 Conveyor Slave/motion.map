@@ -1,0 +1,34 @@
+**********************************************
+Motion PROgramming Language Linker	Version 2.0
+**********************************************
+Thu Oct 17 16:50:10 2013
+
+
+OUTPUT FILE NAME:	<C:\Program Files (x86)\ElectroCraft\ElectroCraft MotionPRO Suite\Projects\Eval-Kit Training Solutions\Exercise 7 - Solution\ID#4 Conveyor Slave\motion.out>
+ENTRY POINT SYMBOL:	"_PROG_INI" address: 4000
+
+MEMORY CONFIGURATION
+
+          name      origin    length    
+          ----      ------    ------    
+PAGE  0:  MLPS      4000      0DE0
+
+PAGE  1:  USER      03B0      0050
+
+
+GLOBAL SYMBOLS
+
+address   name                          address   name                          
+-------   ----                          -------   ----                          
+402F      _PROG_END_ADDR                4000      _PROG_LOAD_ADDR               
+4000      _PROG_INI                     03B0      GCONVEYORCTRL                 
+4000      _PROG_LOAD_ADDR               03B1      GTUBEFEEDCTRL                 
+4000      _PROG_RUN_ADDR                03B2      GTUBEFILLCTRL                 
+4009      CONTINUEWITHENDINIT           4000      _PROG_INI                     
+03B0      GCONVEYORCTRL                 4000      _PROG_RUN_ADDR                
+03B1      GTUBEFEEDCTRL                 4009      CONTINUEWITHENDINIT           
+03B2      GTUBEFILLCTRL                 400D      WAIT_VDC                      
+4011      MAINSTARTADDRESS              4011      MAINSTARTADDRESS              
+400D      WAIT_VDC                      402F      _PROG_END_ADDR                
+
+[10 global symbols]

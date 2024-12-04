@@ -1,0 +1,47 @@
+**********************************************
+Motion PROgramming Language Linker	Version 2.0
+**********************************************
+Thu Mar 14 10:42:47 2013
+
+
+OUTPUT FILE NAME:	<C:\MotionPRO Suite\Projects\Eval-Kit Training Solutions\Exercise 6 - Solution\Untitled Application\motion.out>
+ENTRY POINT SYMBOL:	"_PROG_INI" address: 4000
+
+MEMORY CONFIGURATION
+
+          name      origin    length    
+          ----      ------    ------    
+PAGE  0:  MLPS      4000      0DE0
+
+PAGE  1:  USER      03B0      0050
+
+
+GLOBAL SYMBOLS
+
+address   name                          address   name                          
+-------   ----                          -------   ----                          
+40AF      _PROG_END_ADDR                4000      _PROG_LOAD_ADDR               
+4000      _PROG_INI                     03B0      INDEXVALUE                    
+4000      _PROG_LOAD_ADDR               03B1      TEMPINDEXVALUE                
+4000      _PROG_RUN_ADDR                03B2      STARTMOTION                   
+402C      CASE_0_INDEXVALUE_END         03B4      HOSTSPEED                     
+4037      CASE_1_INDEXVALUE_END         4000      _PROG_INI                     
+4042      CASE_2_INDEXVALUE_END         4000      _PROG_RUN_ADDR                
+404D      CASE_3_INDEXVALUE_END         400B      CONTINUEWITHENDINIT           
+400B      CONTINUEWITHENDINIT           400F      WAIT_VDC                      
+4052      FUNCTIONTABLE                 4013      MAINSTARTADDRESS              
+03B4      HOSTSPEED                     401D      MOTIONINDEXINGLOOP            
+405C      INDEXFUNCTION0                402C      CASE_0_INDEXVALUE_END         
+405D      INDEXFUNCTION1                4037      CASE_1_INDEXVALUE_END         
+407C      INDEXFUNCTION2                4042      CASE_2_INDEXVALUE_END         
+4089      INDEXFUNCTION3                404D      CASE_3_INDEXVALUE_END         
+40AE      INDEXFUNCTIONDEFAULT          404F      SWITCH_INDEXVALUE_END         
+03B0      INDEXVALUE                    4052      FUNCTIONTABLE                 
+4013      MAINSTARTADDRESS              405C      INDEXFUNCTION0                
+401D      MOTIONINDEXINGLOOP            405D      INDEXFUNCTION1                
+03B2      STARTMOTION                   407C      INDEXFUNCTION2                
+404F      SWITCH_INDEXVALUE_END         4089      INDEXFUNCTION3                
+03B1      TEMPINDEXVALUE                40AE      INDEXFUNCTIONDEFAULT          
+400F      WAIT_VDC                      40AF      _PROG_END_ADDR                
+
+[23 global symbols]

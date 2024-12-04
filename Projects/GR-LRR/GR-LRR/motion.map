@@ -1,0 +1,31 @@
+**********************************************
+Motion PROgramming Language Linker	Version 2.0
+**********************************************
+Wed Nov 20 11:09:40 2024
+
+
+OUTPUT FILE NAME:	<C:\Users\jowsm\OneDrive - Vestas Wind Systems A S\Desktop\ElectroCraft MotionPRO Suite\Projects\GR-LRR\GR-LRR\motion.out>
+ENTRY POINT SYMBOL:	"_PROG_INI" address: 4000
+
+MEMORY CONFIGURATION
+
+          name      origin    length    
+          ----      ------    ------    
+PAGE  0:  MLPS      4000      0DBD
+
+PAGE  1:  USER      03B0      0050
+
+
+GLOBAL SYMBOLS
+
+address   name                          address   name                          
+-------   ----                          -------   ----                          
+4022      _PROG_END_ADDR                4000      _PROG_LOAD_ADDR               
+4000      _PROG_INI                     4000      _PROG_INI                     
+4000      _PROG_LOAD_ADDR               4000      _PROG_RUN_ADDR                
+4000      _PROG_RUN_ADDR                4009      CONTINUEWITHENDINIT           
+4009      CONTINUEWITHENDINIT           400D      WAIT_VDC                      
+4011      MAINSTARTADDRESS              4011      MAINSTARTADDRESS              
+400D      WAIT_VDC                      4022      _PROG_END_ADDR                
+
+[7 global symbols]

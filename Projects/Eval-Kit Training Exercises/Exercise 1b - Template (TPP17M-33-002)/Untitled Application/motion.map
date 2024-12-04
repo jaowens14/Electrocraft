@@ -1,0 +1,31 @@
+**********************************************
+Motion PROgramming Language Linker	Version 2.0
+**********************************************
+Thu Oct 17 11:50:22 2013
+
+
+OUTPUT FILE NAME:	<C:\Program Files (x86)\ElectroCraft\ElectroCraft MotionPRO Suite\Projects\Eval-Kit Training Exercises\Exercise 1b - Template (TPP17M-33-002)\Untitled Application\motion.out>
+ENTRY POINT SYMBOL:	"_PROG_INI" address: 4000
+
+MEMORY CONFIGURATION
+
+          name      origin    length    
+          ----      ------    ------    
+PAGE  0:  MLPS      4000      0E13
+
+PAGE  1:  USER      03B0      0050
+
+
+GLOBAL SYMBOLS
+
+address   name                          address   name                          
+-------   ----                          -------   ----                          
+4012      _PROG_END_ADDR                4000      _PROG_LOAD_ADDR               
+4000      _PROG_INI                     4000      _PROG_INI                     
+4000      _PROG_LOAD_ADDR               4000      _PROG_RUN_ADDR                
+4000      _PROG_RUN_ADDR                4009      CONTINUEWITHENDINIT           
+4009      CONTINUEWITHENDINIT           400D      WAIT_VDC                      
+4011      MAINSTARTADDRESS              4011      MAINSTARTADDRESS              
+400D      WAIT_VDC                      4012      _PROG_END_ADDR                
+
+[7 global symbols]

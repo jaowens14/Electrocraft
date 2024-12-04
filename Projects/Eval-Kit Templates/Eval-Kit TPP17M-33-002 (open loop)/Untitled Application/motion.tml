@@ -1,0 +1,16 @@
+//This file was generated with Easy Motion
+
+BEGIN;//Start of MPL program
+
+#include "copy_sequence.tml"
+#include "setup_interrupts.tml"
+#include "init_cam.tml"
+#include "setup_settings.tml"
+#include "main.tml"
+
+END;//End of MPL program
+
+#include "homingmodes.tml"
+#include "functions.tml"
+#include "interrupts.tml"
+

@@ -1,0 +1,411 @@
+15 January 2014
+-----------
+- Updated templates for all the drives
+- Updated dual loop GUIs
+
+
+22 December 2013
+-----------
+- Added dual loop GUIs
+- Updated GUIs for for all the drives
+- Added motionless start for stepper closed loop
+
+
+14 October 2013
+-----------
+- Motionless setup test improved
+
+
+04 October 2013
+-----------
+- Added support for 512 microsteps in iSOL_rot GUI
+
+
+27 September 2013
+-----------
+- Added support for linear incremental encoders on load in iSOL_rot GUI
+- Added support for speed forward in iSOL_rot GUI
+
+
+30 August 2013
+-----------
+- Added support for negative transmission in all the GUI configurations
+
+
+23 August 2013
+-----------
+- Fixed tuning problems with position controller in stepper open loop GUIs
+
+
+19 July 2013
+-----------
+- Updated support for Kvaser Leaf USB to CAN interface
+
+
+03 July 2013
+-----------
+- Added support for Kvaser Leaf USB to CAN interface
+
+
+26 June 2013
+-----------
+- Added support for negative transmission in the GUI for brushless motors with incremental encoder
+
+
+24 May 2013
+-----------
+- Updated Firmware programmer
+
+
+20 May 2013
+-----------
+- Updated configurations
+- Updated Firmware programmer
+- Updated tmlcomm.dll to improve compatibility with USB-RS232 adapters
+- Updated help
+
+
+22 March 2013
+-----------
+- Updated the configurations for IBL/PIM CANopen drives using Brushless and DC motors.
+
+
+13 March 2013
+-----------
+- Added new configurations
+- Fixed overcurrent protection setting during inertia identification tests.
+
+
+18 February 2013
+-----------
+- Fixed computation for the start current in case of brushless motors with delta connections
+- Improvements in IDM680-8xI configurations
+- Fixed units for software limit switches parameters when rotary to linear transmission is selected
+- Improvements in iPOS family configurations
+
+
+28 January 2013
+-----------
+- Updated configurations for the iPOS family with EtherCAT
+
+
+14 January 2013
+-----------
+- Update help to CHM format
+- Add proxy authentication option to Firmware Programmer and Update Utility
+
+
+15 November 2012
+-----------
+- Fixed scaling factors for DC motors with incremental encoder and tacho
+
+
+13 November 2012
+-----------
+- Updated help files
+- Updated F508F & F509F configurations files - fix for homing & default interrupts
+- Fixed Import operation from older projects
+- Several corrections to DCET_rot GUI
+
+
+30 October 2012
+-----------
+- Added Proxy server option to PRO Firmware Programmer
+
+
+22 October 2012
+-----------
+- New PRO Firmware Programmer tool which downloads the files required for firwmare update from Electrocraft servers via Internet connection.
+- Added support for configuration of an electromechanical brake (iPOS drives only)
+- Added support for incremental encoder inputs filtering (iPOS/iMOT only)
+- Added possibility to change the direction counting of incremental encoder (iPOS/iMOT only)
+- Added support for new "Freeze Control" algorithm (iPOS/iMOT only)
+- Updated motor database
+- Updated help files
+
+
+29 March 2012
+-----------
+- Updated templates for PIM and IBL drives with CANopen for brushless motors with Linear Halls feedback
+
+
+19 March 2012
+-----------
+- Updated templates for ISCM, IDM and ISD drives with CANopen for brushless and DC brushed motors
+
+
+23 February 2012
+-----------
+- Added support for iPOS3602-VX-CAT drive
+
+
+22 February 2012
+-----------
+- Added support for iPOS3604-VX-CAT drive
+- Added zoom for oscilloscope
+- Improved motionless test for iPOS360x drives
+
+
+14 December 2011
+-----------
+- Added support for iPOS480x drives
+- Improved motionless algorithm and tests for iPOS360x drives
+
+
+03 November 2011
+-----------
+- Improved versions of homing routines for iPOS360x drives
+
+
+22 September 2011
+-----------
+- Corrections for iPOS360x configurations
+
+
+15 September 2011
+-----------
+- Corrections for iPOS360x configurations
+
+
+15 July 2011
+-----------
+- Added support for iPOS360x drives
+- Added oscilloscope function for iPOS360x drives
+
+16 May 2011
+-----------
+- Improved versions of homing routines for all family of drives.
+
+07 April 2011
+-----------
+- New version for the homing routines for IS23xMA CANopen (HT_IS23xMA_v101)
+
+25 February 2011
+-----------
+- Updated configuration files for IDM680-8xI drives
+
+14 January 2011
+-----------
+- Updated configuration files for Logger utility 
+- Added support for Kvaser Leaf USB to CAN interface
+
+11 November 2010
+-----------
+- Fixed I/O settings for IPS110/210 configurations
+- Updated protection values for IDM3000 configurations
+- Improved Home1 and Home2 homing routines
+- IM23x templates updated
+
+02 September 2010
+-----------
+- New templates for IBL3605 & PIM3605 for brushless linear motors with encoder feedback
+- ISD templates modified to correct digital outputs setup
+
+26 October 2009
+-----------
+- New version for F033K firmware (corrected Hall/encoder start for high resolution encoders)
+
+19 June 2009
+-----------
+- new templates for ISD720 CANOpen and ISD860 CANOpen
+
+28 May 2009
+-----------
+- new templates for IBL3605 and PIM3605
+- new templates for ISD720 and ISD860
+
+24 March 2009
+-----------
+- Updated IS23x-MA CAN templates (F903I)
+- Updated MPL register description
+
+09 March 2009
+-----------
+- Add IMCM-SK template
+
+19 February 2009
+-----------
+- Added / updated configurations for brushless linear motors with incremental encoder
+
+19 December 2008
+-----------
+- Added configurations for IS23x-MA CANopen intelligent stepper motors
+- Fix for correctly running a MPL program for all CANopen configurations (disabled logger)
+
+21 October 2008
+-----------
+- Update all templates for IM23x intelligent motors
+- Updated MotionMotorCommands.hlp file
+
+23 September 2008
+-----------
+- Update TechnoCAN templates for ISM4803
+- Update added configuration for IDM3000-SC (brushless linear motor + sin/cos encoder)
+
+16 September 2008
+-----------
+- TMC-3D motion controller firmware and templates added
+
+14 January 2008
+-----------
+- update program corrected
+
+11 January 2008
+-----------
+- added configuration for PIM2403 CANOpen (brushless motor + Linear Halls)
+- added configuration for IBL2401 CANOpen (brushless motor + Linear Halls)
+- added configuration for IBL2403 CANOpen (brushless motor + Linear Halls)
+
+10 January 2008
+-----------
+- added configuration for PIM2401 CANOpen (brushless motor + Linear Halls)
+- added configuration for ISCMxx05 and ISCMxx05 DIN for Linear brushless motors with incremental encoder 
+
+16 November 2007
+-----------
+- added configurations for IS23x-MA
+
+26 October 2007
+-----------
+-add Lawicell CAN support
+-add new reference motor for sin/cos configurations
+-update hwdef.cfg file
+-correct IBL/PIM configurations(new value for drive i2t) 
+-make standard MCII configurations compatible with the CANOpen ones
+-update CANOpen configurations
+
+10 October 2007
+-----------
+-correct the compatible product ID field for ISCM4805 CANOpen and ISCM8005 CANOpen
+
+03 October 2007
+-----------
+-new configurations for IDM3000
+-new firmware for IDM3000(F037I)
+
+25 September 2007
+-----------
+-correct product ID for all the MCII CANOpen configurations
+
+24 September 2007
+-----------
+-add new configurations + firmware for IPS110/210 CANOpen
+-correct some old configurations (0312, 0313, 0386, 0314, 0315)
+
+07 September 2007
+-----------
+- Correct CANopen configurations for IDM640 CANOpen, ISCM xxxx CANOpen and ISCM DIN xxxx CANOpen.
+- New firmwares F250B, F251B, F252 B
+
+04 September 2007
+-----------
+- Make PROconfig/MotionPRO Developer compatible with Windows Vista.
+
+03 September 2007
+-----------
+- Correct CANopen configurations for PIM2401, PIM2403, IBL2401, IBL2403.
+- New firmwares for IBL/PIM240x (F253B,F254B)
+
+20 July 2007
+-----------
+- Adding CANopen configurations for PIM2401, PIM2403, ISCM4805, ISCM8005, ISCM4805 DIN, ISCM8005 DIN, IBL2401, IBL2403, IDM240, IDM640, IM233-MA, , IM232-MA.
+- New default motors(M17x) for the drive + brushless + incremental encoder configurations
+- Changing configuration files for IDSx40 to be IDMx40 (TMLCAN and TechnoCAN versions)
+
+13 June 2007
+-----------
+- Update the TechnoCAN fw version for IBL2403 (F203J)
+
+06 June 2007
+-----------
+- Removing SOL with SSI encoder on load special configuration, and  F603A special firmware
+
+05 June 2007
+-----------
+- SOL with SSI encoder on load configuration added
+- F603A special firmware release for IDM680-8EI (SOL with SSI encoder on load)
+- F504B firmware release for IDM680-8BI 
+
+24 May 2007
+-----------
+- CRC parameters added for BiSS protocol
+
+21 May 2007
+-----------
+- F005J firmware release for IPS110, IPS110-CAN, IPS210, IPS210-CAN drives
+- added configurations for IPS210 and IPS210-CAN drives
+- IPS110 and IPS110-CAN configurations updated
+- new configurations for IDM680-8xI added
+
+27 April 2007
+-----------
+- Fix overflow bug in ESM kernel
+- Added BiSS encoder type support and the related configuration files
+- Solved miscellaneous bugs regarding IBL and IPS configuration files
+
+29 March 2007
+-----------
+- F020J firmware release for IBL2403 and IBL2403-CAN drives
+- suport for acceleration limit in stepper open loop with encoder on load configurations
+- IBL2403 and IBL2403-CAN configurations updated
+- Logger - Graph Export to ASCII uses the selected units
+- improved communication via the Ethernet Adapter
+- supports frequencies higher then 65535Hz for SSI encoders
+- changed the minimum motor inductance to 0.00001 H
+- add troubleshooting guide at the end of network error message in PRO Support Component
+- updated help files
+
+11 September 2006
+-----------
+- Added Multi-Axis logger 
+- Added configurations for linear motor equipped with linear hall sensors 
+- Solved the product ID compatibility between Standard and TechnoCAN configurations
+- Increased the PWM frequency range for all configurations
+
+16 June 2006
+-----------
+- IBL2403 and IBL2403-CAN configurations updated
+- Encoder resolution and direction test for stepper closed loop configurations modified
+ 
+29 May 2006
+-----------
+- new products added:
+  a. IDM family of CANopen drives
+  b. IDM640-8EI EnDat with sine-cosine encoder and EnDat protocol
+- added configurations for linear motors
+
+09 May 2006
+-----------
+- added ISM4803 and ISM4803-CAN configurations 
+
+22 March 2006
+-----------
+- external reference limits added for BLLH configurations
+- small improvements in motion modules
+
+28 February 2006
+-----------
+- TechnoCAN communication protocol included in the communication DLL
+- EEPROM Programmer update
+- PROconfig and MotionPRO Developer help update
+- possibility to select CANbus baud rate for drives/motors with CANbus interface
+- R&L identification test for stepper open loop configurations modified
+- drive overtemperature protection disabled on IPS110 and IPS110-CAN
+
+24 January 2006
+-----------
+- added support for unrequested messages in the communication DLL
+- minor changes on user interface and control panels for IM23x-DS configurations
+- limit speed formula modified for stepper open loop configurations with encoder on load
+
+22 December 2005
+-----------
+- product configurations upgraded with transmission between the motor and the load
+- new configurations added for IDSx40, ISCMxx05, ISCMxx05-DIN and IBL2403 for 3 phase steppers  
+- new products added: IDM640-8RI for control of brushless motors with resolver
+- new configurations added for the TechnoCAN version of all products with CAN-bus interface
+
+9 June 2005
+-----------
+Release of PROconfig and MotionPRO Developer
+ 
